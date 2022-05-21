@@ -1,0 +1,790 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+.menu{
+    background-color: black;
+    display:flex;
+    width: 100%;
+}
+.logo{
+    margin-left: 150px;
+}
+.logo img{
+    width: 100px;
+    padding:5px;
+}
+.menu a{
+    color: white;
+}
+.menu a:hover{
+    color: #ed312e;
+}
+.menu li{
+    display:inline-table;
+    padding: 10px;
+    white-space: nowrap;
+}
+.menu ul{
+    margin-left: 40%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.landing{
+    background-image: url(image\ 5.png);
+    background-repeat:repeat-x;
+    display:list-item;
+    width: 100%;
+}
+.tituloeform{
+    display: inline;
+}
+.titulo{
+    float: left;
+    width: 600px;
+    margin-left: 10%;
+}
+.titulo h1{
+    margin-top: 100px;
+    font: weight 8px;
+    font-size: 70px;
+    line-height: 1;
+}
+.titulo h3{
+    font-size: 30px;
+}
+#form {
+    float:right;
+    background-color: white;
+    border: rgb(66, 66, 66) solid 1px;
+    padding: 20px;
+    height: 500px;
+    margin-right: 15%;
+}
+#form h3{
+    font-size: 25px;
+    padding: 5px 5px 0px 5px;
+    text-align: center;
+}
+#form h5{
+    font-size: 12.5px;
+    text-align: center;
+}
+#form p{
+    font-size: 12px;
+    margin-top: 6px;
+}
+#form input{
+    width: 250px;
+    height: 32px;
+    padding-left: 5px;
+}
+#form ::placeholder{
+   font-size: 12px; 
+}
+#form input:last-child{
+    width: 259px;
+    background-color: #ed312e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#form input:last-child:hover{
+    box-shadow: 0px 0px 5px #ed312e;
+}
+
+#form select{
+    width: 259px;
+    height: 32px;
+    padding-left: 5px;
+}
+.img img{
+    width: 500px;
+    margin-left: 8%;
+}
+#sinopse{
+    margin-top: -300px;
+    margin-bottom: 30px;
+    width: 600px;
+    text-align: justify;
+    margin-left:50%;
+}
+#sinopse h3{
+    font-size: 25px;
+}
+#autora h3{
+    font-size: 25px;
+    padding-top: 35px;
+}
+#autora h4{
+    font-size: 20px;
+}
+#autora{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    display:inline-flex;
+    width: 100%;
+}
+#autora p{
+    width: 700px;
+    text-align: justify;
+}
+#autora img{
+    width: 200px;
+    margin-left: 10%;
+    padding:10px;
+}
+.text{
+    margin-left:150px;
+}
+#contato .preencha a{
+    background-color: #ed312e;
+    color: white;
+    width: 300px;
+    padding:10px;
+}
+#contato .preencha a:hover{
+    box-shadow: 0px 0px 5px #ed312e;
+}
+#contato{
+    text-align: center;
+}
+#contato a img{
+    width: 40px;
+    padding:5px;
+    margin-bottom: 30px;
+}
+#contato a:hover img{
+    width: 42px; 
+}
+#contato h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+/***-***/
+@media (max-width: 1195px){
+    .menu{
+        background-color: black;
+        display:flex;
+        width: 100%;
+    }
+    .logo{
+        margin-left: 100px;
+    }
+    .logo img{
+        width: 80px;
+        padding:8px;
+    }
+    .menu a{
+        color: white;
+    }
+    .menu a:hover{
+        color: #ed312e;
+    }
+    .menu li{
+        display:inline-table;
+        padding: 10px;
+        white-space: nowrap;
+    }
+    .menu ul{
+        margin-left: 30%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .landing{
+        background-image: url(image\ 5.png);
+        background-repeat:repeat-x;
+        display:list-item;
+        width: auto;
+    }
+    .tituloeform{
+        display: inline;
+    }
+    .titulo{
+        float: left;
+        width: 600px;
+        margin-left: 5%;
+    }
+    .titulo h1{
+        margin-top: 100px;
+        font: weight 8px;
+        font-size: 60px;
+        line-height: 1;
+    }
+    .titulo h3{
+        font-size: 30px;
+    }
+    #form {
+        float:right;
+        background-color: white;
+        border: rgb(66, 66, 66) solid 1px;
+        padding: 20px;
+        height: 500px;
+        margin-right: 5%;
+    }
+    #sinopse{
+        margin-top: -300px;
+        margin-bottom: 30px;
+        width: 500px;
+        text-align: justify;
+        margin-left:50%;
+    }
+    #sinopse h3{
+        font-size: 25px;
+    }
+    #autora h3{
+        font-size: 25px;
+        padding-top: 35px;
+    }
+    #autora h4{
+        font-size: 20px;
+    }
+    #autora{
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        display:inline-flex;
+        width: 100%;
+    }
+    #autora p{
+        width: 700px;
+        text-align: justify;
+    }
+    #autora img{
+        width: 160px;
+        height: 284px;
+        margin-left: 8%;
+        padding:10px;
+    }
+}
+@media (max-width: 1095px){
+    .menu ul{
+        margin-left: 20%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #sinopse{
+        margin-top: -150px;
+        margin-bottom: 30px;
+        width: 500px;
+        text-align: justify;
+        margin-left:50%;
+        margin-right: 10px;
+    }
+    #autora p{
+        width: 500px;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+    #autora img{
+        width: 160px;
+        height: 284px;
+        margin-left: 4%;
+        padding:10px;
+    }
+    .img img{
+        width: 400px;
+        margin-left: 8%;
+    }
+}
+@media (max-width: 1000px){
+    .tituloeform{
+        display:list-item
+    }
+    .titulo{
+        float: left;
+        text-align: left;
+        margin-left:50px;
+        width: 400px;
+    }
+    .titulo h1{
+        margin-top: 100px;
+        font: weight 8px;
+        font-size: 50px;
+        line-height: 1;
+    }
+    .titulo h3{
+        font-size: 30px;
+    }
+    #form {
+        float:center;
+        background-color: white;
+        border: rgb(66, 66, 66) solid 1px;
+        padding: 20px;
+        height: 500px;
+        margin:0 auto;
+    }
+    #sinopse{
+        margin-top: -80px;
+        margin-bottom: 30px;
+        width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: justify;
+    }
+    #sinopse h3{
+        font-size: 25px;
+    }
+}
+@media (max-width: 850px) {
+    .menu{
+        background-color: black;
+        display:block;
+        width: 100%;
+        margin:0 auto;
+    }
+    .logo{
+        width: 100px;
+        margin:0 auto;
+    }
+    .logo img{
+        width: 100px;
+        padding:5px;
+        margin:0 auto;
+    }
+    .menu a{
+        color: white;
+    }
+    .menu a:hover{
+        color: #ed312e;
+    }
+    .menu li{
+        display:inline-table;
+        padding: 10px;
+        white-space: rap;
+    }
+    .menu ul{
+        text-align: center;
+        padding-bottom: 10px;
+        margin: 0 10px;
+        padding-top: 0px;
+    }
+    .landing{
+        background-image: url(image\ 5.png);
+        background-repeat:repeat-x;
+        display:table;
+        width: 100%;
+    }
+    .tituloeform{
+        display:block;
+        width:400px ;
+    }
+    .titulo{
+        float: center;
+        text-align: center;
+        padding:10px;
+        margin: 0 40px;
+    }
+    .titulo h1{
+        margin-top: 70px;
+        font: weight 8px;
+        font-size: 50px;
+        line-height: 1;
+        text-align: center;
+    }
+    .titulo h3{
+        font-size: 30px;
+    }
+    #form{
+        float:center;
+        background-color: white;
+        border: rgb(66, 66, 66) solid 1px;
+        padding: 20px;
+        height: 500px;
+        margin: 60px 0px 0px 0px;
+    }
+    #form h3{
+        font-size: 25px;
+        padding: 5px 5px 0px 5px;
+        text-align: center;
+    }
+    #form h5{
+        font-size: 12.5px;
+        text-align: center;
+    }
+    #form p{
+        font-size: 12px;
+        margin-top: 6px;
+    }
+    #form input{
+        width: 250px;
+        height: 32px;
+        padding-left: 5px;
+    }
+    #form ::placeholder{
+       font-size: 12px; 
+    }
+    #form input:last-child{
+        width: 259px;
+        background-color: #ed312e;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    #form input:last-child:hover{
+        box-shadow: 0px 0px 5px #ed312e;
+    }
+    
+    #form select{
+        width: 259px;
+        height: 32px;
+        padding-left: 5px;
+    }
+    .img{
+        width: 200px;
+        margin:0 auto -120px auto;
+    }
+    .img img{
+        width: 200px;
+    }
+    #sinopse{
+        width: auto;
+        padding:30px;
+        text-align: justify;
+        margin: 30px auto;
+    }
+    #sinopse h3{
+        font-size: 25px;
+    }
+    #autora h3{
+        font-size: 25px;
+        padding-top: 35px;
+    }
+    #autora h4{
+        font-size: 20px;
+    }
+    #autora{
+        background-color: black;
+        color: white;
+        display:block;
+        width: 100%;
+    }
+    #autora p{
+        width:auto;
+        text-align: justify;
+    }
+    .imagauto img{
+        margin: 0 auto;
+        width: 160px;
+        height: 284px;
+        padding-bottom:10px;
+    }
+    .imgauto{
+        width: 160px;
+        height: 284px;
+        padding-bottom: 35px;
+        margin:0 auto;
+        display: flex;
+    }
+    .text{
+        margin: 0px 30px 0px 30px;
+        padding:20px;
+    }
+    #contato .preencha a{
+        background-color: #ed312e;
+        color: white;
+        width: 300px;
+        padding:10px;
+    }
+    #contato .preencha a:hover{
+        box-shadow: 0px 0px 5px #ed312e;
+    }
+    #contato{
+        text-align: center;
+    }
+    #contato a img{
+        width: 40px;
+        padding:5px;
+        margin-bottom: 30px;
+    }
+    #contato a:hover img{
+        width: 45px; 
+    }
+    #contato h3{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    
+}
+@media (max-width: 500px){
+    .menu{
+        background-color: black;
+        display:block;
+        width: 100%;
+        margin:0 auto;
+    }
+    .logo{
+        width: 100px;
+        margin:0 auto;
+    }
+    .logo img{
+        width: 100px;
+        padding:2px;
+        margin:0 auto;
+    }
+    .menu a{
+        color: white;
+    }
+    .menu a:hover{
+        color: #ed312e;
+    }
+    .menu li{
+        font-size: 12px;
+        display:inline-table;
+        padding: 5px;
+        white-space: rap;
+    }
+    .menu ul{
+        text-align: center;
+        padding-bottom: 10px;
+        margin: 0 5px;
+        padding-top: 0px;
+    }
+    .tituloeform{
+        display:block;
+        width:350px ;
+    }
+    .titulo{
+        float: center;
+        text-align: center;
+        padding:20px;
+        margin: 0 auto;
+    }
+    .titulo h1{
+        margin-top: 50px;
+        font: weight 8px;
+        font-size: 30px;
+        line-height: 1;
+        text-align: center;
+    }
+    .titulo h3{
+        font-size: 18px;
+    }
+    #form{
+        float:center;
+        background-color: white;
+        border: rgb(66, 66, 66) solid 1px;
+        padding: 10px;
+        height: 500px;
+        margin: 50px 0px 0px 0px;
+    }
+    #form h3{
+        font-size: 25px;
+        padding: 5px 5px 0px 5px;
+        text-align: center;
+    }
+    #form h5{
+        font-size: 12.5px;
+        text-align: center;
+    }
+    #form p{
+        font-size: 12px;
+        margin-top: 6px;
+    }
+    #form input{
+        width: 250px;
+        height: 32px;
+        padding-left: 5px;
+    }
+    #form ::placeholder{
+       font-size: 12px; 
+    }
+    #form input:last-child{
+        width: 259px;
+        background-color: #ed312e;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    #form input:last-child:hover{
+        box-shadow: 0px 0px 5px #ed312e;
+    }
+    
+    #form select{
+        width: 259px;
+        height: 32px;
+        padding-left: 5px;
+    }
+}
+@media (max-width: 500px){
+    .menu{
+        background-color: black;
+        display:block;
+        width: 100%;
+        margin:0 auto;
+    }
+    .logo{
+        width: 100px;
+        margin:0 auto;
+    }
+    .logo img{
+        width: 100px;
+        padding:2px;
+        margin:0 auto;
+    }
+    .menu a{
+        color: white;
+    }
+    .menu a:hover{
+        color: #ed312e;
+    }
+    .menu li{
+        font-size: 12px;
+        display:inline-table;
+        padding: 5px;
+        white-space: rap;
+    }
+    .menu ul{
+        text-align: center;
+        padding-bottom: 10px;
+        margin: 0 5px;
+        padding-top: 0px;
+    }
+    .tituloeform{
+        display:block;
+        width:320px;
+    }
+    .titulo{
+        width: 300px;
+        text-align: center;
+        padding:10px;
+        margin: 0 auto;
+    }
+    .titulo h1{
+        margin-top: 50px;
+        font: weight 8px;
+        font-size: 30px;
+        line-height: 1;
+        text-align: center;
+    }
+    .titulo h3{
+        font-size: 18px;
+    }
+    #form{
+        float:center;
+        background-color: white;
+        border: rgb(66, 66, 66) solid 1px;
+        padding: 10px;
+        height: 500px;
+        margin: 50px 0px 0px 0px;
+    }
+    #form h3{
+        font-size: 23px;
+        padding: 5px 5px 0px 5px;
+        text-align: center;
+    }
+    #form h5{
+        font-size: 11.5px;
+        text-align: center;
+    }
+    #form p{
+        font-size: 12px;
+        margin-top: 6px;
+    }
+    #form input{
+        width: 230px;
+        height: 32px;
+        padding-left: 5px;
+    }
+    #form ::placeholder{
+       font-size: 12px; 
+    }
+    #form input:last-child{
+        width: 239px;
+        background-color: #ed312e;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    #form input:last-child:hover{
+        box-shadow: 0px 0px 5px #ed312e;
+    }
+    
+    #form select{
+        width: 239px;
+        height: 32px;
+        padding-left: 5px;
+    }
+}
+@media (max-width: 300px){
+    .tituloeform{
+        display:block;
+        width:320px;
+    }
+    .titulo{
+        width: 260px;
+        text-align: center;
+        padding:10px;
+        margin: 0 auto;
+    }
+    .titulo h1{
+        margin-top: 50px;
+        font: weight 8px;
+        font-size: 25px;
+        line-height: 1;
+        text-align: center;
+    }
+    .titulo h3{
+        font-size: 15px;
+    }
+    #form{
+        float:center;
+        background-color: white;
+        border: rgb(66, 66, 66) solid 1px;
+        padding: 10px;
+        height: 500px;
+        margin: 50px 0px 0px 0px;
+        align-content: center;
+    }
+    #form h3{
+        font-size: 20px;
+        padding: 5px 5px 0px 5px;
+        text-align: center;
+    }
+    #form h5{
+        font-size: 10px;
+        text-align: center;
+    }
+    #form p{
+        font-size: 12px;
+        margin-top: 6px;
+    }
+    #form input{
+        width: 200px;
+        height: 32px;
+        padding-left: 5px;
+    }
+    #form ::placeholder{
+       font-size: 12px; 
+    }
+    #form input:last-child{
+        width: 209px;
+        background-color: #ed312e;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    #form input:last-child:hover{
+        box-shadow: 0px 0px 5px #ed312e;
+    }
+    
+    #form select{
+        width: 209px;
+        height: 32px;
+        padding-left: 5px;
+    }
+    #contato .preencha a{
+        background-color: #ed312e;
+        color: white;
+        width: 200px;
+        padding:10px;
+        font-size: 12px;
+    }
+    #contato .preencha a:hover{
+        box-shadow: 0px 0px 5px #ed312e;
+    }
+}
